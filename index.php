@@ -22,9 +22,9 @@
     <div id="zoeken">
       <input type="text" onKeyDown="buttonEnter();" id="tbxID" name="tbxID" placeholder="Zoek Pokémon..."/>
       <input type="button" onclick="searchPokemonquery();" id="btnID" name="button" value="Zoek"/>
-      <div class="loadHolder" id="loadingSpinner">
+      <aside class="loadHolder" id="loadingSpinner">
         <img class="loader" src="https://d13yacurqjgara.cloudfront.net/users/82092/screenshots/1073359/spinner.gif" />
-      </div>
+      </aside>
     </div>
   </nav>
   <div id="empty">
@@ -44,6 +44,9 @@
 		}
 
 	}
+  else {
+    include("home.php");
+  }
 
 	?>
 </section>

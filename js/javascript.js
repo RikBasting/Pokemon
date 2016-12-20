@@ -27,7 +27,7 @@ function getPokemonData() {
         document.getElementById("pokemonNaam").innerHTML =
         pokemon.name;
         document.getElementById("pokemonImg").innerHTML =
-        "<img src='http://assets.pokemon.com/assets/cms2/img/pokedex/full/" + ("000" + pokemon.id).slice(-3) + ".png'/>";
+        "<img width='300px'height='280px' src='http://assets.pokemon.com/assets/cms2/img/pokedex/full/" + ("000" + pokemon.id).slice(-3) + ".png'/>";
         $("#loadingSpinner").hide();
 
     });
